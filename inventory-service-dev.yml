@@ -1,0 +1,7 @@
+
+keycloak:
+  server-url: ${KEYCLOAK_CONTAINER_NAME:http://localhost:8081}
+  realm: scalke-realm
+  client-id: scalke-client-inventory-service
+  client-secret: hvWp3l8bJrXLQi108lSto3y52WkNvRUm
+  grant-type: client_credentials
